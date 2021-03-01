@@ -60,8 +60,15 @@ p.published{
 }
 .paginator .active {
     cursor: pointer;
+    background: #fff2b4;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: gray;
 }
 .paginator .disabled {
     cursor: not-allowed;
     color: rgb(179, 179, 179);
+    background: #fff2b4;
+    padding: 10px 15px;
+    border-radius: 15px;
 }

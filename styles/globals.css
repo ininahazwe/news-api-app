@@ -23,3 +23,8 @@ p{
   background: rgb(255,250,236);
   background: radial-gradient(circle, rgba(255,250,236,1) 0%, rgba(255,255,255,1) 54%);
 }
+.diez{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

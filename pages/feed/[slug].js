@@ -48,7 +48,7 @@ export const Feed = ({ articles, pageNumber }) => {
                             Previous Page
                         </div>
 
-                        <div>#{pageNumber}</div>
+                        <div className="diez">#{pageNumber}</div>
 
                         <div
                             className={pageNumber === 5 ? styles.disabled : styles.active}
