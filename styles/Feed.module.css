@@ -4,6 +4,8 @@
     width: 30%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 30px;
     border-right: 1px solid whitesmoke;
