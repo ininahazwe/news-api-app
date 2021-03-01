@@ -10,12 +10,16 @@ a {
   color: inherit;
   text-decoration: none;
 }
+p{
+  color: #7c7c7c;
+}
 
 * {
   box-sizing: border-box;
 }
 .page-container{
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
+  position: relative;
+  width: 100%;
+  background: rgb(255,250,236);
+  background: radial-gradient(circle, rgba(255,250,236,1) 0%, rgba(255,255,255,1) 54%);
 }
